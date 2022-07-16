@@ -6,6 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Css/style.css">
     <title>Teste em Tabela</title>
+    <style>
+        table {
+            position: relative;
+            margin: auto;
+            width: 500px;
+            border: solid 4px black;
+            border-collapse: collapse;
+        }
+        table caption {
+            background-color: black;
+            color: white;
+            padding: 5px;
+            font-size: 1.5em;
+        }
+
+        thead {
+            position: sticky;
+            top: -5px;
+        }
+
+        thead, tfoot {
+            background-color: rgb(83, 76, 76);
+            color: white;
+        }
+
+        td, th {
+            text-align: center;
+            padding: 5px;
+            border: solid 1px black;
+        }
+
+        th#aluno {
+            width: 35%;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin: auto;
+            padding: 20px;
+            max-width: 400px;
+        }
+
+        tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+    </style>
 </head>
 <body>
     <table>
